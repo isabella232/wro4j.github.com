@@ -16,10 +16,10 @@ In `_config.yml` remember to specify your own data:
     title : My Blog =)
     
     author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+      name : Alex Objelean
+      email : alex.objelean@gmail.com
+      github : alexo
+      twitter : wro4j
 
 The theme should reference these variables whenever needed.
     
