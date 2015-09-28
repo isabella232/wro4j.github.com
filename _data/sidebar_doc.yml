@@ -52,8 +52,8 @@ entries:
           product: all
           version: all
 
-        - title: Setting configuration options
-          url: /doc_configuration_settings.html
+        - title: Configuration options
+          url: /ConfigurationOptions.html
           audience: writers, designers
           platform: all
           product: all

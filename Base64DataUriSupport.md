@@ -1,9 +1,9 @@
 ---
-title: Introduction 
+title: Data URI
 tags: [getting-started]
 keywords: start, introduction, begin, install, build, hello world,
 last_updated: August 12, 2015
-summary: "Since version 1.2.7, the base64 data uri encoding support was added. 
+summary: "The base64 data uri encoding support was added since version 1.2.7. 
 The data URI scheme is a URI scheme that provides a way to include data in line in web pages as if they were external resources. More details on wikipedia: http://en.wikipedia.org/wiki/Data_URI_scheme"
 ---
 
