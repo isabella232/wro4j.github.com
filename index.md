@@ -1,46 +1,45 @@
 ---
-layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Introduction
+tags: 
+  - "getting-started"
+type: first_page
+homepage: true
+published: true
 ---
-{% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+## Overview 
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+This site provides documentation, training, and other notes for the Jekyll Documentation theme. There's a lot of information about how to do a variety of things here, and it's not all unique to this theme. But by and large, understanding how to do things in Jekyll depends on how your theme is coded. 
 
-## Update Author Attributes
+## Survey of features
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Alex Objelean
-      email : alex.objelean@gmail.com
-      github : alexo
-      twitter : wro4j
+Some of the more prominent features of this theme include the following:
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+* Bootstrap framework
+* Sidebar with page hierarchy and advanced toc
+* PDF generation (with Prince XML utility)
+* Notes, tips, and warning information notes
+* Tags
+* Single sourced outputs
+* Emphasis on pages, not posts
+* Relative (rather than absolute) link structure
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+I'm using this theme for my documentation projects, building about 15 different outputs for various products, versions, languages, and audiences from the same set of files. This single sourcing requirement has influenced how I constructed this theme.
 
-    $ rm -rf _posts/core-samples
+For more discussion about the available features, see {{site.data.urls_d.doc_supported_features.link}}.
 
-Here's a sample "posts list".
+## Getting started
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+To get started, see these three topics:
 
-## To-Do
+1. {{site.data.urls.doc_getting_started.link}}
+2. {{site.data.urls.doc_configuration_settings.link}}
+3. {{site.data.urls.doc_customizing_the_theme.link}}
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+## PDF Download 
 
+If you would like to download this help file as a PDF, you can do so here. The PDF most of the same content as the online help, except that some elements (such as video or special layouts) don't translate the the print medium, so they're excluded.
 
+<a target="_blank" class="noCrossRef" href="doc_{{site.audience}}_pdf.pdf"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
+
+The PDF contains a timestamp in the header indicating when it was last generated. If you download a PDF, keep in mind that it may go out of date quickly. Always compare your PDF timestamp against the online help timestamp (which you can find in the footer).
